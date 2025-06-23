@@ -18,7 +18,7 @@ Built with Python, scikit-learn, TF-IDF, and a clean Streamlit UI.
 
 ## Project Structure
 
-
+```
 fake_news_detection/
 ├── app.py                  # Streamlit app
 ├── model.pkl               # Trained ML model
@@ -30,7 +30,7 @@ fake_news_detection/
 │   └── True.csv
 └── src/
     └── train_model.py      # Model training script
-
+```
 
 ---
 
@@ -103,6 +103,13 @@ http://localhost:8501
 
 ---
 
+## License
+
+MIT License
+Copyright 2025
+Author: Suboth Sundar ([subothsundar1@gmail.com](mailto:subothsundar1@gmail.com))
+
+---
 
 ## Acknowledgments
 
