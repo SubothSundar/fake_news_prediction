@@ -88,9 +88,9 @@ http://localhost:8501
 ---
 
 ## Example Inputs
-
+```
 real news:
-      * Exclusive – U.S. officials are drawing up plans to prosecute parents who cross the border illegally, a policy shift that could separate thousands of children from their families, according to internal Department of Homeland Security documents seen by Reuters.
+      *Exclusive – U.S. officials are drawing up plans to prosecute parents who cross the border illegally, a policy shift that could separate thousands of children from their families, according to internal Department of Homeland Security documents seen by Reuters.
       *Europe’s leading human-rights body said on Monday that Turkey’s prolonged state of emergency has led to “massive and disproportionate” restrictions on basic freedoms and should be lifted without delay, citing tens of thousands of arrests since the 2016 coup attempt.
 ```
 ```
