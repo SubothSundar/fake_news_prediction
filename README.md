@@ -110,7 +110,7 @@ fake news:
 
 * Model: Logistic Regression
 * Feature Extraction: TF-IDF Vectorizer
-* Accuracy: Approximately 94 percent on test data
+* Accuracy: Approximately 98 percent on test data
 * Libraries used: scikit-learn, nltk, pandas
 
 ---
