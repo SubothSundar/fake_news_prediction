@@ -103,16 +103,4 @@ http://localhost:8501
 
 ---
 
-## License
 
-MIT License
-Copyright 2025
-Author: Suboth Sundar ([subothsundar1@gmail.com](mailto:subothsundar1@gmail.com))
-
----
-
-## Acknowledgments
-
-* Kaggle: Fake & Real News Dataset
-* scikit-learn
-* Streamlit
