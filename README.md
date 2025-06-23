@@ -89,10 +89,15 @@ http://localhost:8501
 
 ## Example Inputs
 
-* "India launches new satellite to monitor air pollution." -> Real News
-* "NASA confirms aliens living on the moon" -> Fake News
+real news:
+      1)Exclusive – U.S. officials are drawing up plans to prosecute parents who cross the border illegally, a policy shift that could separate thousands of children from their families, according to internal Department of Homeland Security documents seen by Reuters.
+      2)Europe’s leading human-rights body said on Monday that Turkey’s prolonged state of emergency has led to “massive and disproportionate” restrictions on basic freedoms and should be lifted without delay, citing tens of thousands of arrests since the 2016 coup attempt.
 
----
+fake news:
+    1)NASA scientists confirmed this morning that the sun mysteriously rose from the west after an unprecedented magnetic flip in Earth’s core. According to the agency, the reversal could happen again next week, forcing all nations to reset their clocks.
+    2)BREAKING – A secret Harvard study reveals that drinking three cups of black coffee cures cancer in 24 hours. Pharmaceutical companies are allegedly scrambling to hide the results as doctors panic over the impending collapse of the chemotherapy industry.
+
+
 
 ## Model Information
 
