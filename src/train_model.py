@@ -1,3 +1,5 @@
+# src/train_model.py
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -42,14 +44,16 @@ y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Report:\n", classification_report(y_test, y_pred))
 
-# Save the model and vectorizer to project root
-pickle.dump(model, open("../model.pkl", "wb"))
-pickle.dump(vectorizer, open("../vectorizer.pkl", "wb"))
 
-import json
+import json, os
+
 metrics = {
-    "accuracy": accuracy_score(y_test, y_pred),
-    "report":   classification_report(y_test, y_pred, output_dict=True)
+    "accuracy": accuracy_score(y_test, y_pred)
 }
 with open("../metrics.json", "w") as f:
     json.dump(metrics, f, indent=2)
+
+
+# Save the model and vectorizer to project root
+pickle.dump(model, open("../model.pkl", "wb"))
+pickle.dump(vectorizer, open("../vectorizer.pkl", "wb"))
